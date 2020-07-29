@@ -4,7 +4,7 @@ class Shoe
   
   BRANDS = []
 
-  def initialize(brand)
+  def initialize(brand = generic)
     @brand = brand
   end
   
