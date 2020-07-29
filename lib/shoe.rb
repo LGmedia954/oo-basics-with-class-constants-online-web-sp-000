@@ -13,7 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def generic(generic)
+  def generic=(generic)
     @generic = generic
   end
   
