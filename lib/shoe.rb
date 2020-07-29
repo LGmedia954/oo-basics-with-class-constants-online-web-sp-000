@@ -17,7 +17,7 @@ class Shoe
     @generic = generic
   end
   
-  def unique(unique)
+  def unique=(unique)
     @unique = unique
     BRANDS << unique
   end
